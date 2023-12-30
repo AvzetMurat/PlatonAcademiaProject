@@ -11,21 +11,26 @@
 
 <body>
     <div class="container">
-        <div>
+        <div class="sidebar">
             <div class="academy-logo">
                 <img class="logo" src="image\platon.png" alt="PLATON ACADEMIA">
             </div>
-            <div class="header">
-
-            </div>
+            <div>
+            <a href="#" class="bar-item" onclick="loadPage('lectures')" >Lectures</a>
+            <a href="#" class="bar-item" onclick="loadPage('students')">Students</a>
+            <a href="#" class="bar-item" onclick="loadPage('grades')">Grades</a>
+            </div>            
         </div>
-        <div>
-
+        <div class="header">
+            <div class="heading">PLATON ACADEMIA STUDENT INFORMATION SYSTEM</div>
         </div>
-        <div>
 
+        <div class="pageContent" id="pageContent">
+            <p>Welcome to the default content!</p>
         </div>
     </div>
+
+<script src="index.js" defer></script>
 </body>
 
 </html>
